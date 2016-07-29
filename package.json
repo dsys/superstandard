@@ -1,0 +1,21 @@
+{
+  "name": "superstandard",
+  "version": "1.0.0",
+  "description": "Even more standardized.",
+  "author": "Alex Kern <alex@kern.io> (http://kern.io)",
+  "homepage": "https://github.com/usepavlov/superstandard#readme",
+  "main": "src/index.js",
+  "license": "BSD-3-Clause",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/usepavlov/superstandard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/usepavlov/superstandard/issues"
+  },
+  "dependencies": {
+    "standard": "^7.1.2"
+  }
+}
