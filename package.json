@@ -6,6 +6,9 @@
   "homepage": "https://github.com/usepavlov/superstandard#readme",
   "main": "dist/index.js",
   "license": "BSD-3-Clause",
+  "scripts": {
+    "test": "make lint"
+  },
   "bin": {
     "superstandard": "./dist/cmd.js"
   },
@@ -29,7 +32,8 @@
   "devDependencies": {
     "babel-cli": "^6.11.4",
     "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-preset-es2015": "^6.9.0"
+    "babel-preset-es2015": "^6.9.0",
+    "pre-commit": "^1.1.3"
   },
   "babel": {
     "presets": [
